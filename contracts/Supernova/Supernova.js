@@ -95,7 +95,6 @@ async function withdrawMultiTokenDeposit(data) {
       },
 
       {
-        // This is the token program public key.
         pubkey: data.token,
         isSigner: false,
         isWritable: true,
