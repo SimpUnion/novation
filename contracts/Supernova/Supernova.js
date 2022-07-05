@@ -35,7 +35,6 @@ const {
   FEEADDRESS,
 } = constants;
 
-// withdraw multi token deposit
 async function withdrawMultiTokenDeposit(data) {
   async function findAssociatedTokenAddress(walletAddress, tokenMintAddress) {
     return (
