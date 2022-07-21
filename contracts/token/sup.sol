@@ -9,6 +9,7 @@ contract sup is ERC20{
         admin = manager;
         _mint(manager, 10_000_000_000 *10 ** 18);
     }
+    
     modifier  _isOwner() {
         require(msg.sender == admin);
         _;
